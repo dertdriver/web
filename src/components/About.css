@@ -1,0 +1,54 @@
+.about-section {
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.about-text h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.about-text h2 span {
+  color: #e63946;
+}
+
+.about-text p {
+  font-family: "Poppins", sans-serif;
+  color: #ddd;
+  line-height: 1.8;
+  font-size: 1rem;
+  max-width: 500px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-text p {
+    margin: auto;
+  }
+
+  .about-text h2 {
+    font-size: 2rem;
+  }
+}

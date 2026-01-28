@@ -1,0 +1,66 @@
+.socials-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.socials-title {
+  font-family: "Playfair Display", serif;
+  color: white;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+.socials-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.social {
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+/* Colores reales */
+.instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .socials-title {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+}
